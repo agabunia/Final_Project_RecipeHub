@@ -2,3 +2,11 @@
 2026-09-05 16:36:33,105 - INFO - Recipe app startup
 2026-09-05 16:36:33,113 - WARNING -  * Debugger is active!
 2026-09-05 16:36:33,114 - INFO -  * Debugger PIN: 542-805-223
+2026-09-05 16:37:26,476 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\auth\\forms.py', reloading
+2026-09-05 16:37:26,889 - INFO - Recipe app startup
+2026-09-05 16:37:26,897 - WARNING -  * Debugger is active!
+2026-09-05 16:37:26,898 - INFO -  * Debugger PIN: 542-805-223
+2026-09-05 16:37:41,006 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\auth\\routes.py', reloading
+2026-09-05 16:37:41,423 - INFO - Recipe app startup
+2026-09-05 16:37:41,431 - WARNING -  * Debugger is active!
+2026-09-05 16:37:41,432 - INFO -  * Debugger PIN: 542-805-223
