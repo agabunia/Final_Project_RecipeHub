@@ -1,7 +1,7 @@
 # app/__init__.py
 import os
 import logging
-from logging.handlers import RotatingFileHandler
+# from logging.handlers import RotatingFileHandler
 from flask import Flask
 
 from app.config import config_by_name
@@ -54,17 +54,11 @@ def create_app(config_name='development'):
 
 
 def configure_logging(app):
-    if not os.path.exists('logs'):
-        os.makedirs('logs')
-
-    file_handler = RotatingFileHandler('logs/app.log', maxBytes=102400, backupCount=5)
-    file_handler.setFormatter(logging.Formatter(
-        '%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]'
-    ))
-    file_handler.setLevel(logging.INFO)
-
-    app.logger.addHandler(file_handler)
-    app.logger.setLevel(logging.INFO)
+    logging.basicConfig(
+        filename='logs/app.log',
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s'
+    )
     app.logger.info('Recipe app startup')
 
 

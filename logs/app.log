@@ -4,3 +4,18 @@
 2026-09-05 16:26:09,606 INFO: Recipe app startup [in D:\Study\ComSchool\Final_Project_RecipeHub\app\__init__.py:68]
 2026-09-05 16:27:41,741 INFO: Recipe app startup [in D:\Study\ComSchool\Final_Project_RecipeHub\app\__init__.py:68]
 2026-09-05 16:27:43,218 INFO: Recipe app startup [in D:\Study\ComSchool\Final_Project_RecipeHub\app\__init__.py:68]
+2026-09-05 16:34:10,479 - INFO - Recipe app startup
+2026-09-05 16:34:10,487 - WARNING -  * Debugger is active!
+2026-09-05 16:34:10,488 - INFO -  * Debugger PIN: 542-805-223
+2026-09-05 16:34:17,547 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\__init__.py', reloading
+2026-09-05 16:34:17,954 - INFO - Recipe app startup
+2026-09-05 16:34:17,962 - WARNING -  * Debugger is active!
+2026-09-05 16:34:17,963 - INFO -  * Debugger PIN: 542-805-223
+2026-09-05 16:34:45,147 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\__init__.py', reloading
+2026-09-05 16:34:45,572 - INFO - Recipe app startup
+2026-09-05 16:34:45,580 - WARNING -  * Debugger is active!
+2026-09-05 16:34:45,581 - INFO -  * Debugger PIN: 542-805-223
+2026-09-05 16:34:52,630 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\__init__.py', reloading
+2026-09-05 16:34:53,042 - INFO - Recipe app startup
+2026-09-05 16:34:53,050 - WARNING -  * Debugger is active!
+2026-09-05 16:34:53,051 - INFO -  * Debugger PIN: 542-805-223
