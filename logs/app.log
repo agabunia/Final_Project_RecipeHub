@@ -10,3 +10,102 @@
 2026-09-05 16:37:41,423 - INFO - Recipe app startup
 2026-09-05 16:37:41,431 - WARNING -  * Debugger is active!
 2026-09-05 16:37:41,432 - INFO -  * Debugger PIN: 542-805-223
+2026-09-05 16:39:17,944 - INFO - Recipe app startup
+2026-09-05 16:39:17,958 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-09-05 16:39:17,959 - INFO - Press CTRL+C to quit
+2026-09-05 16:39:17,959 - INFO -  * Restarting with stat
+2026-09-05 16:39:18,310 - INFO - Recipe app startup
+2026-09-05 16:39:18,318 - WARNING -  * Debugger is active!
+2026-09-05 16:39:18,319 - INFO -  * Debugger PIN: 542-805-223
+2026-09-05 16:39:26,512 - INFO - 127.0.0.1 - - [05/Sep/2026 16:39:26] "GET /about HTTP/1.1" 200 -
+2026-09-05 16:39:26,553 - INFO - 127.0.0.1 - - [05/Sep/2026 16:39:26] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-05 16:39:28,552 - INFO - 127.0.0.1 - - [05/Sep/2026 16:39:28] "GET /auth/register HTTP/1.1" 200 -
+2026-09-05 16:39:28,568 - INFO - 127.0.0.1 - - [05/Sep/2026 16:39:28] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-05 16:39:29,757 - INFO - 127.0.0.1 - - [05/Sep/2026 16:39:29] "GET /auth/login HTTP/1.1" 200 -
+2026-09-05 16:39:29,776 - INFO - 127.0.0.1 - - [05/Sep/2026 16:39:29] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-05 16:39:30,995 - INFO - 127.0.0.1 - - [05/Sep/2026 16:39:30] "GET /auth/register HTTP/1.1" 200 -
+2026-09-05 16:39:31,010 - INFO - 127.0.0.1 - - [05/Sep/2026 16:39:31] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-05 16:40:04,191 - INFO - New user registered: test@mail.com
+2026-09-05 16:40:04,191 - INFO - 127.0.0.1 - - [05/Sep/2026 16:40:04] "POST /auth/register HTTP/1.1" 302 -
+2026-09-05 16:40:04,196 - INFO - 127.0.0.1 - - [05/Sep/2026 16:40:04] "GET /auth/login HTTP/1.1" 200 -
+2026-09-05 16:40:04,214 - INFO - 127.0.0.1 - - [05/Sep/2026 16:40:04] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-05 16:40:38,758 - INFO - Successful login: test@mail.com
+2026-09-05 16:40:38,759 - INFO - 127.0.0.1 - - [05/Sep/2026 16:40:38] "POST /auth/login HTTP/1.1" 302 -
+2026-09-05 16:40:38,762 - INFO - 127.0.0.1 - - [05/Sep/2026 16:40:38] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-05 16:40:48,354 - INFO - 127.0.0.1 - - [05/Sep/2026 16:40:48] "GET /about HTTP/1.1" 200 -
+2026-09-05 16:40:48,370 - INFO - 127.0.0.1 - - [05/Sep/2026 16:40:48] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-05 16:40:55,673 - INFO - 127.0.0.1 - - [05/Sep/2026 16:40:55] "GET /about HTTP/1.1" 200 -
+2026-09-05 16:40:55,690 - INFO - 127.0.0.1 - - [05/Sep/2026 16:40:55] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-05 16:40:56,361 - INFO - 127.0.0.1 - - [05/Sep/2026 16:40:56] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-05 16:40:58,938 - INFO - 127.0.0.1 - - [05/Sep/2026 16:40:58] "GET /recipes/add HTTP/1.1" 200 -
+2026-09-05 16:41:01,314 - INFO - User logged out: test@mail.com
+2026-09-05 16:41:01,314 - INFO - 127.0.0.1 - - [05/Sep/2026 16:41:01] "GET /auth/logout HTTP/1.1" 302 -
+2026-09-05 16:41:01,319 - INFO - 127.0.0.1 - - [05/Sep/2026 16:41:01] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-05 16:41:07,468 - INFO - 127.0.0.1 - - [05/Sep/2026 16:41:07] "GET /about HTTP/1.1" 200 -
+2026-09-05 16:41:07,486 - INFO - 127.0.0.1 - - [05/Sep/2026 16:41:07] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-06 19:57:55,156 - INFO - Recipe app startup
+2026-09-06 19:57:55,230 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-09-06 19:57:55,230 - INFO - Press CTRL+C to quit
+2026-09-06 19:57:55,231 - INFO -  * Restarting with stat
+2026-09-06 19:57:55,596 - INFO - Recipe app startup
+2026-09-06 19:57:55,604 - WARNING -  * Debugger is active!
+2026-09-06 19:57:55,606 - INFO -  * Debugger PIN: 542-805-223
+2026-09-06 19:58:25,411 - INFO - Recipe app startup
+2026-09-06 19:58:25,426 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-09-06 19:58:25,426 - INFO - Press CTRL+C to quit
+2026-09-06 19:58:25,426 - INFO -  * Restarting with stat
+2026-09-06 19:58:25,792 - INFO - Recipe app startup
+2026-09-06 19:58:25,800 - WARNING -  * Debugger is active!
+2026-09-06 19:58:25,801 - INFO -  * Debugger PIN: 542-805-223
+2026-09-06 19:58:37,357 - INFO - 127.0.0.1 - - [06/Sep/2026 19:58:37] "GET /about HTTP/1.1" 200 -
+2026-09-06 19:58:37,411 - INFO - 127.0.0.1 - - [06/Sep/2026 19:58:37] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-09-06 19:58:37,428 - INFO - 127.0.0.1 - - [06/Sep/2026 19:58:37] "GET /favicon.ico HTTP/1.1" 404 -
+2026-09-06 19:58:44,859 - INFO - 127.0.0.1 - - [06/Sep/2026 19:58:44] "GET /auth/login HTTP/1.1" 200 -
+2026-09-06 19:58:44,877 - INFO - 127.0.0.1 - - [06/Sep/2026 19:58:44] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-06 19:58:51,754 - INFO - Successful login: test@mail.com
+2026-09-06 19:58:51,755 - INFO - 127.0.0.1 - - [06/Sep/2026 19:58:51] "POST /auth/login HTTP/1.1" 302 -
+2026-09-06 19:58:51,766 - INFO - 127.0.0.1 - - [06/Sep/2026 19:58:51] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-06 19:58:51,787 - INFO - 127.0.0.1 - - [06/Sep/2026 19:58:51] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-06 19:59:00,485 - INFO - 127.0.0.1 - - [06/Sep/2026 19:59:00] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-06 19:59:00,502 - INFO - 127.0.0.1 - - [06/Sep/2026 19:59:00] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-06 19:59:13,338 - INFO - 127.0.0.1 - - [06/Sep/2026 19:59:13] "GET /recipes/add HTTP/1.1" 200 -
+2026-09-06 19:59:13,352 - INFO - 127.0.0.1 - - [06/Sep/2026 19:59:13] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-06 19:59:43,907 - INFO - Recipe added: "test_1" by test@mail.com
+2026-09-06 19:59:43,907 - INFO - 127.0.0.1 - - [06/Sep/2026 19:59:43] "POST /recipes/add HTTP/1.1" 302 -
+2026-09-06 19:59:43,918 - INFO - 127.0.0.1 - - [06/Sep/2026 19:59:43] "GET /recipes/1 HTTP/1.1" 200 -
+2026-09-06 19:59:43,937 - INFO - 127.0.0.1 - - [06/Sep/2026 19:59:43] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-06 19:59:46,124 - INFO - 127.0.0.1 - - [06/Sep/2026 19:59:46] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-06 19:59:46,141 - INFO - 127.0.0.1 - - [06/Sep/2026 19:59:46] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-06 19:59:48,193 - INFO - 127.0.0.1 - - [06/Sep/2026 19:59:48] "GET /recipes/1 HTTP/1.1" 200 -
+2026-09-06 19:59:48,211 - INFO - 127.0.0.1 - - [06/Sep/2026 19:59:48] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-06 20:00:07,068 - INFO - 127.0.0.1 - - [06/Sep/2026 20:00:07] "GET /recipes/1/edit HTTP/1.1" 200 -
+2026-09-06 20:00:07,088 - INFO - 127.0.0.1 - - [06/Sep/2026 20:00:07] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-06 20:00:10,646 - INFO - Recipe edited: "test_1" by test@mail.com
+2026-09-06 20:00:10,647 - INFO - 127.0.0.1 - - [06/Sep/2026 20:00:10] "POST /recipes/1/edit HTTP/1.1" 302 -
+2026-09-06 20:00:10,652 - INFO - 127.0.0.1 - - [06/Sep/2026 20:00:10] "GET /recipes/1 HTTP/1.1" 200 -
+2026-09-06 20:00:10,674 - INFO - 127.0.0.1 - - [06/Sep/2026 20:00:10] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-06 20:00:38,852 - INFO - 127.0.0.1 - - [06/Sep/2026 20:00:38] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-06 20:00:38,871 - INFO - 127.0.0.1 - - [06/Sep/2026 20:00:38] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-06 20:00:40,134 - INFO - User logged out: test@mail.com
+2026-09-06 20:00:40,135 - INFO - 127.0.0.1 - - [06/Sep/2026 20:00:40] "GET /auth/logout HTTP/1.1" 302 -
+2026-09-06 20:00:40,141 - INFO - 127.0.0.1 - - [06/Sep/2026 20:00:40] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-06 20:00:40,161 - INFO - 127.0.0.1 - - [06/Sep/2026 20:00:40] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-06 20:00:42,851 - INFO - 127.0.0.1 - - [06/Sep/2026 20:00:42] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-06 20:00:42,869 - INFO - 127.0.0.1 - - [06/Sep/2026 20:00:42] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-06 20:00:45,455 - INFO - 127.0.0.1 - - [06/Sep/2026 20:00:45] "GET /recipes/1 HTTP/1.1" 200 -
+2026-09-06 20:00:45,474 - INFO - 127.0.0.1 - - [06/Sep/2026 20:00:45] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-06 20:00:59,855 - INFO - 127.0.0.1 - - [06/Sep/2026 20:00:59] "GET /auth/login HTTP/1.1" 200 -
+2026-09-06 20:00:59,875 - INFO - 127.0.0.1 - - [06/Sep/2026 20:00:59] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-06 20:01:03,783 - INFO - Successful login: test@mail.com
+2026-09-06 20:01:03,784 - INFO - 127.0.0.1 - - [06/Sep/2026 20:01:03] "POST /auth/login HTTP/1.1" 302 -
+2026-09-06 20:01:03,789 - INFO - 127.0.0.1 - - [06/Sep/2026 20:01:03] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-06 20:01:03,811 - INFO - 127.0.0.1 - - [06/Sep/2026 20:01:03] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-06 20:01:04,848 - INFO - 127.0.0.1 - - [06/Sep/2026 20:01:04] "GET /recipes/1 HTTP/1.1" 200 -
+2026-09-06 20:01:04,866 - INFO - 127.0.0.1 - - [06/Sep/2026 20:01:04] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-06 20:01:06,487 - INFO - Recipe deleted: "test_1" by test@mail.com
+2026-09-06 20:01:06,487 - INFO - 127.0.0.1 - - [06/Sep/2026 20:01:06] "POST /recipes/1/delete HTTP/1.1" 302 -
+2026-09-06 20:01:06,492 - INFO - 127.0.0.1 - - [06/Sep/2026 20:01:06] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-06 20:01:06,511 - INFO - 127.0.0.1 - - [06/Sep/2026 20:01:06] "GET /static/css/style.css HTTP/1.1" 304 -

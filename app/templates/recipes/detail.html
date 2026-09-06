@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}{{ recipe.title }} - Recipe Portal{% endblock %}
+{% block content %}
+<h1>{{ recipe.title }}</h1>
+<p class="meta">
+    By <a href="{{ url_for('profile.view_profile', user_id=recipe.author.id) }}">{{ recipe.author.name }}</a>
+    — {{ recipe.date_added.strftime('%b %d, %Y') }} — {{ recipe.category }}
+</p>
+<p><strong>Prep time:</strong> {{ recipe.prep_time }} min | <strong>Servings:</strong> {{ recipe.servings }}</p>
+
+<p>{{ recipe.short_description }}</p>
+<hr>
+<div class="full-recipe">{{ recipe.full_recipe }}</div>
+
+{% if current_user.is_authenticated and current_user.id == recipe.user_id %}
+    <hr>
+    <a href="{{ url_for('recipes.edit_recipe', recipe_id=recipe.id) }}">Edit</a>
+    <form method="POST" action="{{ url_for('recipes.delete_recipe', recipe_id=recipe.id) }}"
+          onsubmit="return confirm('Delete this recipe?');" style="display:inline;">
+        {{ delete_form.hidden_tag() }}
+        <button type="submit">Delete</button>
+    </form>
+{% endif %}
+
+<a href="{{ url_for('recipes.list_recipes') }}">Back to Recipes</a>
+{% endblock %}
