@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}{{ profile_user.name }} - Profile{% endblock %}
+{% block content %}
+<div class="profile-header">
+    <img src="{{ url_for('static', filename='profile_pics/' + profile_user.profile_picture) }}"
+         alt="{{ profile_user.name }}" class="profile-pic">
+    <div>
+        <h1>{{ profile_user.name }}</h1>
+        <p>{{ profile_user.email }}</p>
+        <p class="meta">Member since {{ profile_user.created_at.strftime('%B %Y') }}</p>
+
+        {% if current_user.is_authenticated and current_user.id == profile_user.id %}
+            <a href="{{ url_for('profile.edit_profile') }}">Edit Profile</a>
+        {% endif %}
+    </div>
+</div>
+
+<hr>
+<h2>Recipes by {{ profile_user.name }}</h2>
+
+{% if recipes %}
+    <div class="recipe-grid">
+        {% for recipe in recipes %}
+        <div class="recipe-card">
+            <h3>{{ recipe.title }}</h3>
+            <p class="meta">{{ recipe.date_added.strftime('%b %d, %Y') }}</p>
+            <p>{{ recipe.short_description }}</p>
+            <a href="{{ url_for('recipes.view_recipe', recipe_id=recipe.id) }}">Read More</a>
+        </div>
+        {% endfor %}
+    </div>
+{% else %}
+    <p>No recipes yet.</p>
+{% endif %}
+{% endblock %}

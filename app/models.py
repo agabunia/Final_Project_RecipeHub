@@ -11,8 +11,8 @@ class User(UserMixin, db.Model):
     name = db.Column(db.String(100), nullable=False)
     email = db.Column(db.String(120), unique=True, nullable=False, index=True)
     password_hash = db.Column(db.String(255), nullable=False)
-    profile_picture = db.Column(db.String(255), default='default.jpg')
-    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    profile_picture = db.Column(db.String(255), default='default.png')
+    created_at = db.Column(db.DateTime, default=datetime.now)
 
     # one User -> many Recipes
     recipes = db.relationship(

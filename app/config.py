@@ -8,7 +8,7 @@ class Config:
     SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, '..', 'instance', 'recipes.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SPOONACULAR_API_KEY = 'api-key'
-    UPLOAD_FOLDER = os.path.join(basedir, 'static', 'uploads')
+    UPLOAD_FOLDER = os.path.join(basedir, 'static', 'profile_pics')
 
 
 class DevelopmentConfig(Config):
