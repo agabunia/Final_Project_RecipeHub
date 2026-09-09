@@ -5,6 +5,7 @@ from flask_login import login_required, current_user
 from app.extensions import db
 from app.models import Recipe
 from app.recipes.forms import RecipeForm, DeleteForm
+from app.utils.nutrition_api import get_nutrition_estimate, NutritionAPIError
 
 recipes_bp = Blueprint('recipes', __name__)
 
@@ -19,7 +20,21 @@ def list_recipes():
 def view_recipe(recipe_id):
     recipe = Recipe.query.get_or_404(recipe_id)
     delete_form = DeleteForm()
-    return render_template('recipes/detail.html', recipe=recipe, delete_form=delete_form)
+
+    nutrition = None
+    nutrition_error = None
+    try:
+        nutrition = get_nutrition_estimate(recipe.title)
+    except NutritionAPIError as e:
+        nutrition_error = str(e)
+
+    return render_template(
+        'recipes/detail.html',
+        recipe=recipe,
+        delete_form=delete_form,
+        nutrition=nutrition,
+        nutrition_error=nutrition_error
+    )
 
 
 @recipes_bp.route('/add', methods=['GET', 'POST'])

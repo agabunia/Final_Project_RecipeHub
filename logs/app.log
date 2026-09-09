@@ -187,3 +187,91 @@
 2026-09-06 21:23:47,493 - INFO - 127.0.0.1 - - [06/Sep/2026 21:23:47] "GET /static/css/style.css HTTP/1.1" 304 -
 2026-09-06 21:23:49,917 - INFO - 127.0.0.1 - - [06/Sep/2026 21:23:49] "GET /recipes/ HTTP/1.1" 200 -
 2026-09-06 21:23:49,937 - INFO - 127.0.0.1 - - [06/Sep/2026 21:23:49] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 20:46:31,272 - INFO - Recipe app startup
+2026-09-09 20:46:31,368 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-09-09 20:46:31,368 - INFO - Press CTRL+C to quit
+2026-09-09 20:46:31,369 - INFO -  * Restarting with stat
+2026-09-09 20:46:31,778 - INFO - Recipe app startup
+2026-09-09 20:46:31,788 - WARNING -  * Debugger is active!
+2026-09-09 20:46:31,791 - INFO -  * Debugger PIN: 542-805-223
+2026-09-09 20:47:04,177 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:04] "GET /about HTTP/1.1" 200 -
+2026-09-09 20:47:04,262 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:04] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 20:47:04,279 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:04] "GET /favicon.ico HTTP/1.1" 404 -
+2026-09-09 20:47:05,531 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:05] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-09 20:47:05,548 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:05] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 20:47:18,282 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:18] "GET /auth/login HTTP/1.1" 200 -
+2026-09-09 20:47:18,298 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:18] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 20:47:23,587 - INFO - Successful login: test@mail.com
+2026-09-09 20:47:23,588 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:23] "POST /auth/login HTTP/1.1" 302 -
+2026-09-09 20:47:23,594 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:23] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-09 20:47:23,615 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:23] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 20:47:26,301 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:26] "GET /profile/1 HTTP/1.1" 200 -
+2026-09-09 20:47:26,319 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:26] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 20:47:26,320 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:26] "GET /static/profile_pics/default.jpg HTTP/1.1" 404 -
+2026-09-09 20:47:40,298 - INFO - User logged out: test@mail.com
+2026-09-09 20:47:40,298 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:40] "GET /auth/logout HTTP/1.1" 302 -
+2026-09-09 20:47:40,303 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:40] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-09 20:47:40,321 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:40] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 20:47:41,944 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:41] "GET /auth/login HTTP/1.1" 200 -
+2026-09-09 20:47:41,959 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:41] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 20:47:49,558 - WARNING - Failed login attempt for email: test_test@mail.com
+2026-09-09 20:47:49,559 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:49] "POST /auth/login HTTP/1.1" 200 -
+2026-09-09 20:47:49,578 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:49] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 20:47:52,854 - INFO - Successful login: test_test@mail.com
+2026-09-09 20:47:52,854 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:52] "POST /auth/login HTTP/1.1" 302 -
+2026-09-09 20:47:52,860 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:52] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-09 20:47:52,877 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:52] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 20:47:54,592 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:54] "GET /profile/2 HTTP/1.1" 200 -
+2026-09-09 20:47:54,611 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:54] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 20:47:54,612 - INFO - 127.0.0.1 - - [09/Sep/2026 20:47:54] "GET /static/profile_pics/063afa5d06dde46d.png HTTP/1.1" 304 -
+2026-09-09 20:53:26,168 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\config.py', reloading
+2026-09-09 20:53:26,238 - INFO -  * Restarting with stat
+2026-09-09 20:53:26,643 - INFO - Recipe app startup
+2026-09-09 20:53:26,654 - WARNING -  * Debugger is active!
+2026-09-09 20:53:26,656 - INFO -  * Debugger PIN: 542-805-223
+2026-09-09 21:04:39,247 - INFO - Recipe app startup
+2026-09-09 21:04:39,264 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-09-09 21:04:39,264 - INFO - Press CTRL+C to quit
+2026-09-09 21:04:39,265 - INFO -  * Restarting with stat
+2026-09-09 21:04:39,778 - INFO - Recipe app startup
+2026-09-09 21:04:39,788 - WARNING -  * Debugger is active!
+2026-09-09 21:04:39,790 - INFO -  * Debugger PIN: 542-805-223
+2026-09-09 21:04:59,566 - INFO - 127.0.0.1 - - [09/Sep/2026 21:04:59] "GET /profile/2 HTTP/1.1" 200 -
+2026-09-09 21:04:59,616 - INFO - 127.0.0.1 - - [09/Sep/2026 21:04:59] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 21:04:59,616 - INFO - 127.0.0.1 - - [09/Sep/2026 21:04:59] "GET /static/profile_pics/063afa5d06dde46d.png HTTP/1.1" 304 -
+2026-09-09 21:05:06,006 - INFO - 127.0.0.1 - - [09/Sep/2026 21:05:06] "GET /profile/2 HTTP/1.1" 200 -
+2026-09-09 21:05:06,019 - INFO - 127.0.0.1 - - [09/Sep/2026 21:05:06] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 21:05:06,019 - INFO - 127.0.0.1 - - [09/Sep/2026 21:05:06] "GET /static/profile_pics/063afa5d06dde46d.png HTTP/1.1" 304 -
+2026-09-09 21:05:07,568 - INFO - 127.0.0.1 - - [09/Sep/2026 21:05:07] "GET /profile/2 HTTP/1.1" 200 -
+2026-09-09 21:05:07,581 - INFO - 127.0.0.1 - - [09/Sep/2026 21:05:07] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 21:05:07,583 - INFO - 127.0.0.1 - - [09/Sep/2026 21:05:07] "GET /static/profile_pics/063afa5d06dde46d.png HTTP/1.1" 304 -
+2026-09-09 21:05:12,949 - INFO - 127.0.0.1 - - [09/Sep/2026 21:05:12] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-09 21:05:12,964 - INFO - 127.0.0.1 - - [09/Sep/2026 21:05:12] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 21:05:43,287 - INFO - 127.0.0.1 - - [09/Sep/2026 21:05:43] "GET /recipes/2 HTTP/1.1" 200 -
+2026-09-09 21:05:43,303 - INFO - 127.0.0.1 - - [09/Sep/2026 21:05:43] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 21:07:13,939 - INFO - 127.0.0.1 - - [09/Sep/2026 21:07:13] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-09 21:07:13,955 - INFO - 127.0.0.1 - - [09/Sep/2026 21:07:13] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 21:07:18,003 - INFO - 127.0.0.1 - - [09/Sep/2026 21:07:18] "GET /recipes/1 HTTP/1.1" 200 -
+2026-09-09 21:07:18,020 - INFO - 127.0.0.1 - - [09/Sep/2026 21:07:18] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 21:07:40,117 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\config.py', reloading
+2026-09-09 21:07:40,206 - INFO -  * Restarting with stat
+2026-09-09 21:07:40,744 - INFO - Recipe app startup
+2026-09-09 21:07:40,754 - WARNING -  * Debugger is active!
+2026-09-09 21:07:40,756 - INFO -  * Debugger PIN: 542-805-223
+2026-09-09 21:07:43,277 - INFO - 127.0.0.1 - - [09/Sep/2026 21:07:43] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-09 21:07:43,316 - INFO - 127.0.0.1 - - [09/Sep/2026 21:07:43] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 21:07:44,569 - ERROR - Nutrition API HTTP error for "test 2": 401 Client Error: Unauthorized for url: https://api.spoonacular.com/recipes/guessNutrition?title=test+2&apiKey=ae37dbd5841b48fcb0d3908e250cbdbd_
+2026-09-09 21:07:44,577 - INFO - 127.0.0.1 - - [09/Sep/2026 21:07:44] "GET /recipes/2 HTTP/1.1" 200 -
+2026-09-09 21:07:44,594 - INFO - 127.0.0.1 - - [09/Sep/2026 21:07:44] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 21:07:49,794 - ERROR - Nutrition API HTTP error for "test 2": 401 Client Error: Unauthorized for url: https://api.spoonacular.com/recipes/guessNutrition?title=test+2&apiKey=ae37dbd5841b48fcb0d3908e250cbdbd_
+2026-09-09 21:07:49,796 - INFO - 127.0.0.1 - - [09/Sep/2026 21:07:49] "GET /recipes/2 HTTP/1.1" 200 -
+2026-09-09 21:07:49,812 - INFO - 127.0.0.1 - - [09/Sep/2026 21:07:49] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 21:07:51,578 - INFO - 127.0.0.1 - - [09/Sep/2026 21:07:51] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-09 21:07:51,593 - INFO - 127.0.0.1 - - [09/Sep/2026 21:07:51] "GET /static/css/style.css HTTP/1.1" 304 -
+2026-09-09 21:07:56,978 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\config.py', reloading
+2026-09-09 21:07:57,045 - INFO -  * Restarting with stat
+2026-09-09 21:07:57,521 - INFO - Recipe app startup
+2026-09-09 21:07:57,532 - WARNING -  * Debugger is active!
+2026-09-09 21:07:57,533 - INFO -  * Debugger PIN: 542-805-223

@@ -7,7 +7,7 @@ class Config:
     SECRET_KEY = '82784b5a63535b34'
     SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, '..', 'instance', 'recipes.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    SPOONACULAR_API_KEY = 'api-key'
+    SPOONACULAR_API_KEY = 'ae37dbd5841b48fcb0d3908e250cbdbd'
     UPLOAD_FOLDER = os.path.join(basedir, 'static', 'profile_pics')
 
 

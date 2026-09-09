@@ -12,6 +12,20 @@
 <hr>
 <div class="full-recipe">{{ recipe.full_recipe }}</div>
 
+<hr>
+<h3>Estimated Nutrition</h3>
+{% if nutrition %}
+    <ul class="nutrition-list">
+        <li>Calories: {{ nutrition.calories or 'N/A' }}</li>
+        <li>Protein: {{ nutrition.protein or 'N/A' }}</li>
+        <li>Fat: {{ nutrition.fat or 'N/A' }}</li>
+        <li>Carbs: {{ nutrition.carbs or 'N/A' }}</li>
+    </ul>
+    <p class="meta">Estimate based on dish name via Spoonacular.</p>
+{% elif nutrition_error %}
+    <p class="error">Nutrition info unavailable: {{ nutrition_error }}</p>
+{% endif %}
+
 {% if current_user.is_authenticated and current_user.id == recipe.user_id %}
     <hr>
     <a href="{{ url_for('recipes.edit_recipe', recipe_id=recipe.id) }}">Edit</a>
