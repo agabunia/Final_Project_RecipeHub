@@ -1,27 +1,59 @@
 {% extends "base.html" %}
 {% block title %}{{ title }} - Recipe Portal{% endblock %}
 {% block content %}
-<h1>{{ title }}</h1>
-<form method="POST" novalidate>
-    {{ form.hidden_tag() }}
 
-    <p>{{ form.title.label }}<br>{{ form.title(size=50) }}
-        {% for e in form.title.errors %}<span class="error">{{ e }}</span>{% endfor %}</p>
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <h1 class="h3 mb-4">{{ title }}</h1>
 
-    <p>{{ form.short_description.label }}<br>{{ form.short_description(size=50) }}
-        {% for e in form.short_description.errors %}<span class="error">{{ e }}</span>{% endfor %}</p>
+        <form method="POST" novalidate>
+            {{ form.hidden_tag() }}
 
-    <p>{{ form.full_recipe.label }}<br>{{ form.full_recipe(rows=10, cols=60) }}
-        {% for e in form.full_recipe.errors %}<span class="error">{{ e }}</span>{% endfor %}</p>
+            <div class="mb-3">
+                {{ form.title.label(class="form-label") }}
+                {{ form.title(class="form-control" + (" is-invalid" if form.title.errors else "")) }}
+                {% for e in form.title.errors %}<div class="invalid-feedback">{{ e }}</div>{% endfor %}
+            </div>
 
-    <p>{{ form.category.label }}<br>{{ form.category() }}</p>
+            <div class="mb-3">
+                {{ form.short_description.label(class="form-label") }}
+                {{ form.short_description(class="form-control" + (" is-invalid" if form.short_description.errors else "")) }}
+                <div class="form-text">A one or two sentence teaser shown on the recipe card.</div>
+                {% for e in form.short_description.errors %}<div class="invalid-feedback">{{ e }}</div>{% endfor %}
+            </div>
 
-    <p>{{ form.prep_time.label }}<br>{{ form.prep_time() }}
-        {% for e in form.prep_time.errors %}<span class="error">{{ e }}</span>{% endfor %}</p>
+            <div class="mb-3">
+                {{ form.full_recipe.label(class="form-label") }}
+                {{ form.full_recipe(class="form-control" + (" is-invalid" if form.full_recipe.errors else ""), rows=10) }}
+                {% for e in form.full_recipe.errors %}<div class="invalid-feedback">{{ e }}</div>{% endfor %}
+            </div>
 
-    <p>{{ form.servings.label }}<br>{{ form.servings() }}
-        {% for e in form.servings.errors %}<span class="error">{{ e }}</span>{% endfor %}</p>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    {{ form.category.label(class="form-label") }}
+                    {{ form.category(class="form-select") }}
+                </div>
+                <div class="col-md-4 mb-3">
+                    {{ form.prep_time.label(class="form-label") }}
+                    <div class="input-group">
+                        {{ form.prep_time(class="form-control" + (" is-invalid" if form.prep_time.errors else "")) }}
+                        <span class="input-group-text">min</span>
+                    </div>
+                    {% for e in form.prep_time.errors %}<div class="invalid-feedback d-block">{{ e }}</div>{% endfor %}
+                </div>
+                <div class="col-md-4 mb-3">
+                    {{ form.servings.label(class="form-label") }}
+                    {{ form.servings(class="form-control" + (" is-invalid" if form.servings.errors else "")) }}
+                    {% for e in form.servings.errors %}<div class="invalid-feedback">{{ e }}</div>{% endfor %}
+                </div>
+            </div>
 
-    {{ form.submit() }}
-</form>
+            <div class="d-flex gap-2 mt-4">
+                {{ form.submit(class="btn btn-primary") }}
+                <a href="{{ url_for('recipes.list_recipes') }}" class="btn btn-outline-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
 {% endblock %}

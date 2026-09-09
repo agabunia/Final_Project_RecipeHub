@@ -1,2 +1,19 @@
-<h1>500 - Server Error</h1>
-<p>Something went wrong on our end.</p>
+{% extends "base.html" %}
+{% block title %}Server Error{% endblock %}
+{% block content %}
+
+<div class="row justify-content-center text-center">
+    <div class="col-md-6">
+        <div class="display-1 fw-bold text-danger mb-3">500</div>
+        <h1 class="h3 mb-3">Something Went Wrong</h1>
+        <p class="text-muted mb-4">
+            An unexpected error occurred on our end. It's been logged, and we're on it.
+            Please try again in a moment.
+        </p>
+        <a href="{{ url_for('recipes.list_recipes') }}" class="btn btn-primary">
+            Back to Recipes
+        </a>
+    </div>
+</div>
+
+{% endblock %}

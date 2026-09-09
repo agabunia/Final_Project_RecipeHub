@@ -1,7 +1,6 @@
 # app/__init__.py
 import os
 import logging
-# from logging.handlers import RotatingFileHandler
 from flask import Flask
 
 from app.config import config_by_name

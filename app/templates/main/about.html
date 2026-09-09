@@ -1,6 +1,71 @@
 {% extends "base.html" %}
 {% block title %}About - Recipe Portal{% endblock %}
 {% block content %}
-    <h1>About This Recipe Portal</h1>
-    <p>A Flask learning project — search and share recipes.</p>
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <h1 class="mb-4">About Recipe Portal</h1>
+
+        <p class="lead">
+            Recipe Portal is a place to discover, share, and organize recipes —
+            built as a learning project to explore how a full web application comes together with Flask.
+        </p>
+
+        <hr class="my-4">
+
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 bg-light">
+                    <div class="card-body">
+                        <div class="fs-2 mb-2">🔍</div>
+                        <h2 class="h5">Browse Freely</h2>
+                        <p class="text-muted mb-0">
+                            Anyone can browse all recipes and read full details — no account required.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 bg-light">
+                    <div class="card-body">
+                        <div class="fs-2 mb-2">✍️</div>
+                        <h2 class="h5">Share Your Own</h2>
+                        <p class="text-muted mb-0">
+                            Create a free account to add your own recipes, complete with categories, prep time, and servings.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 bg-light">
+                    <div class="card-body">
+                        <div class="fs-2 mb-2">🥗</div>
+                        <h2 class="h5">Nutrition Info</h2>
+                        <p class="text-muted mb-0">
+                            Every recipe shows an estimated nutritional breakdown, powered by the Spoonacular API.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-4">
+
+        <h2 class="h4">Built With</h2>
+        <ul class="text-muted">
+            <li>Flask, Jinja2 templates, Flask-WTF (CSRF-protected forms)</li>
+            <li>Flask-Login for authentication and session management</li>
+            <li>Flask-SQLAlchemy for the database layer</li>
+            <li>Bootstrap 5 for responsive UI</li>
+            <li>Spoonacular API for nutrition estimates</li>
+        </ul>
+
+        {% if not current_user.is_authenticated %}
+        <div class="text-center mt-5">
+            <a href="{{ url_for('auth.register') }}" class="btn btn-primary btn-lg">Create an Account</a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
 {% endblock %}

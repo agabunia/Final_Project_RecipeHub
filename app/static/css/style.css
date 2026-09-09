@@ -1,20 +1,7 @@
-* { box-sizing: border-box; }
-body { font-family: system-ui, sans-serif; margin: 0; background: #f7f7f7; color: #222; }
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #2f3e46;
-    padding: 1rem 2rem;
+.recipe-card {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
-.nav-brand { color: #fff; font-weight: bold; text-decoration: none; font-size: 1.2rem; }
-.nav-links a { color: #cfd8dc; text-decoration: none; margin-left: 1.5rem; }
-.nav-links a:hover { color: #fff; }
-
-.container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
-
-.flashes { list-style: none; padding: 0; }
-.flash-success { background: #d4edda; color: #155724; padding: .75rem; border-radius: 4px; margin-bottom: .5rem; }
-.flash-danger { background: #f8d7da; color: #721c24; padding: .75rem; border-radius: 4px; margin-bottom: .5rem; }
-.flash-info { background: #d1ecf1; color: #0c5460; padding: .75rem; border-radius: 4px; margin-bottom: .5rem; }
+.recipe-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
