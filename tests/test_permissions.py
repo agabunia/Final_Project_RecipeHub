@@ -1,4 +1,3 @@
-# tests/test_permissions.py
 from tests.conftest import login
 
 

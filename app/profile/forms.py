@@ -1,10 +1,8 @@
-# app/profile/forms.py
 from flask_wtf import FlaskForm
 from flask_wtf.file import FileField, FileAllowed
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, Email, Length, ValidationError
 from flask_login import current_user
-
 from app.models import User
 
 

@@ -1,8 +1,6 @@
-# app/__init__.py
 import os
 import logging
 from flask import Flask
-
 from app.config import config_by_name
 from app.extensions import db, login_manager, csrf
 

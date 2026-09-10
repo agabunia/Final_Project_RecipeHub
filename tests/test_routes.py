@@ -1,5 +1,3 @@
-# tests/test_routes.py
-
 def test_home_redirects_to_recipes(client):
     """The root URL should redirect to the recipes list."""
     response = client.get('/', follow_redirects=True)
