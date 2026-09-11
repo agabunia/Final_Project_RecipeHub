@@ -544,3 +544,81 @@
 2026-09-09 23:19:31,152 - INFO - 127.0.0.1 - - [09/Sep/2026 23:19:31] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
 2026-09-09 23:19:31,158 - INFO - 127.0.0.1 - - [09/Sep/2026 23:19:31] "GET /recipes/ HTTP/1.1" 200 -
 2026-09-09 23:19:31,177 - INFO - 127.0.0.1 - - [09/Sep/2026 23:19:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-10 23:55:08,201 - INFO - Recipe app startup
+2026-09-10 23:55:08,279 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-10 23:55:08,279 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-10 23:55:08,280 - INFO -  * Restarting with stat
+2026-09-10 23:55:08,684 - INFO - Recipe app startup
+2026-09-10 23:55:08,692 - WARNING -  * Debugger is active!
+2026-09-10 23:55:08,694 - INFO -  * Debugger PIN: 542-805-223
+2026-09-10 23:55:18,612 - INFO - 127.0.0.1 - - [10/Sep/2026 23:55:18] "GET /about HTTP/1.1" 200 -
+2026-09-10 23:55:18,653 - INFO - 127.0.0.1 - - [10/Sep/2026 23:55:18] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-09-10 23:55:18,704 - INFO - 127.0.0.1 - - [10/Sep/2026 23:55:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-10 23:55:19,940 - INFO - 127.0.0.1 - - [10/Sep/2026 23:55:19] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-10 23:55:19,957 - INFO - 127.0.0.1 - - [10/Sep/2026 23:55:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-10 23:55:25,908 - INFO - 127.0.0.1 - - [10/Sep/2026 23:55:25] "GET /about HTTP/1.1" 200 -
+2026-09-10 23:55:25,924 - INFO - 127.0.0.1 - - [10/Sep/2026 23:55:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-10 23:55:29,729 - INFO - 127.0.0.1 - - [10/Sep/2026 23:55:29] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-10 23:55:29,745 - INFO - 127.0.0.1 - - [10/Sep/2026 23:55:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-10 23:55:32,093 - INFO - 127.0.0.1 - - [10/Sep/2026 23:55:32] "GET /auth/login HTTP/1.1" 200 -
+2026-09-10 23:55:32,106 - INFO - 127.0.0.1 - - [10/Sep/2026 23:55:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-10 23:55:32,750 - INFO - 127.0.0.1 - - [10/Sep/2026 23:55:32] "GET /auth/register HTTP/1.1" 200 -
+2026-09-10 23:55:32,766 - INFO - 127.0.0.1 - - [10/Sep/2026 23:55:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-10 23:55:37,787 - INFO - 127.0.0.1 - - [10/Sep/2026 23:55:37] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-10 23:55:37,802 - INFO - 127.0.0.1 - - [10/Sep/2026 23:55:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-11 00:16:03,636 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\config.py', reloading
+2026-09-11 00:16:03,696 - INFO -  * Restarting with stat
+2026-09-11 00:16:04,121 - INFO - Recipe app startup
+2026-09-11 00:16:04,130 - WARNING -  * Debugger is active!
+2026-09-11 00:16:04,131 - INFO -  * Debugger PIN: 542-805-223
+2026-09-11 00:18:10,016 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\config.py', reloading
+2026-09-11 00:18:10,084 - INFO -  * Restarting with stat
+2026-09-11 00:18:10,518 - INFO - Recipe app startup
+2026-09-11 00:18:10,526 - WARNING -  * Debugger is active!
+2026-09-11 00:18:10,528 - INFO -  * Debugger PIN: 542-805-223
+2026-09-11 00:18:14,565 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\config.py', reloading
+2026-09-11 00:18:14,627 - INFO -  * Restarting with stat
+2026-09-11 00:18:15,065 - INFO - Recipe app startup
+2026-09-11 00:18:15,073 - WARNING -  * Debugger is active!
+2026-09-11 00:18:15,074 - INFO -  * Debugger PIN: 542-805-223
+2026-09-11 00:29:29,228 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\config.py', reloading
+2026-09-11 00:29:29,287 - INFO -  * Restarting with stat
+2026-09-11 00:29:29,738 - INFO - Recipe app startup
+2026-09-11 00:29:29,746 - WARNING -  * Debugger is active!
+2026-09-11 00:29:29,748 - INFO -  * Debugger PIN: 542-805-223
+2026-09-11 00:37:05,209 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\extensions.py', reloading
+2026-09-11 00:37:05,280 - INFO -  * Restarting with stat
+2026-09-11 00:37:05,699 - INFO - Recipe app startup
+2026-09-11 00:37:05,707 - WARNING -  * Debugger is active!
+2026-09-11 00:37:05,708 - INFO -  * Debugger PIN: 542-805-223
+2026-09-11 00:37:07,732 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\extensions.py', reloading
+2026-09-11 00:37:07,793 - INFO -  * Restarting with stat
+2026-09-11 00:37:08,205 - INFO - Recipe app startup
+2026-09-11 00:37:08,213 - WARNING -  * Debugger is active!
+2026-09-11 00:37:08,214 - INFO -  * Debugger PIN: 542-805-223
+2026-09-11 00:45:00,719 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\models.py', reloading
+2026-09-11 00:45:00,775 - INFO -  * Restarting with stat
+2026-09-11 00:45:01,239 - INFO - Recipe app startup
+2026-09-11 00:45:01,247 - WARNING -  * Debugger is active!
+2026-09-11 00:45:01,248 - INFO -  * Debugger PIN: 542-805-223
+2026-09-11 00:45:06,290 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\models.py', reloading
+2026-09-11 00:45:06,350 - INFO -  * Restarting with stat
+2026-09-11 00:45:06,772 - INFO - Recipe app startup
+2026-09-11 00:45:06,779 - WARNING -  * Debugger is active!
+2026-09-11 00:45:06,781 - INFO -  * Debugger PIN: 542-805-223
+2026-09-11 00:47:22,803 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\models.py', reloading
+2026-09-11 00:47:22,856 - INFO -  * Restarting with stat
+2026-09-11 00:47:23,269 - INFO - Recipe app startup
+2026-09-11 00:47:23,277 - WARNING -  * Debugger is active!
+2026-09-11 00:47:23,278 - INFO -  * Debugger PIN: 542-805-223
+2026-09-11 01:01:06,009 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\app\\__init__.py', reloading
+2026-09-11 01:01:06,068 - INFO -  * Restarting with stat
+2026-09-11 01:01:06,484 - INFO - Recipe app startup
+2026-09-11 01:01:06,492 - WARNING -  * Debugger is active!
+2026-09-11 01:01:06,493 - INFO -  * Debugger PIN: 542-805-223
+2026-09-11 01:02:31,111 - INFO -  * Detected change in 'D:\\Study\\ComSchool\\Final_Project_RecipeHub\\run.py', reloading
+2026-09-11 01:02:31,167 - INFO -  * Restarting with stat
+2026-09-11 01:02:31,565 - INFO - Recipe app startup
+2026-09-11 01:02:31,572 - WARNING -  * Debugger is active!
+2026-09-11 01:02:31,574 - INFO -  * Debugger PIN: 542-805-223

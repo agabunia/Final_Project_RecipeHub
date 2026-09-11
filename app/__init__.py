@@ -30,6 +30,7 @@ def create_app(config_name='development'):
     from app.main.routes import main_bp
     from app.profile.routes import profile_bp
 
+    # activates the blueprints and sets their URL prefixes
     app.register_blueprint(main_bp)
     app.register_blueprint(auth_bp, url_prefix='/auth')
     app.register_blueprint(recipes_bp, url_prefix='/recipes')

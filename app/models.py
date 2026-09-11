@@ -39,9 +39,9 @@ class Recipe(db.Model):
     short_description = db.Column(db.String(300), nullable=False)
     full_recipe = db.Column(db.Text, nullable=False)
     category = db.Column(db.String(50), nullable=False)
-    prep_time = db.Column(db.Integer, nullable=False)   # minutes
+    prep_time = db.Column(db.Integer, nullable=False)
     servings = db.Column(db.Integer, nullable=False)
-    date_added = db.Column(db.DateTime, default=datetime.utcnow, index=True)
+    date_added = db.Column(db.DateTime, default=lambda: datetime.now(timezone.utc), index=True)
 
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
 
