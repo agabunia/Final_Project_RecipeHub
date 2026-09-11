@@ -622,3 +622,54 @@
 2026-09-11 01:02:31,565 - INFO - Recipe app startup
 2026-09-11 01:02:31,572 - WARNING -  * Debugger is active!
 2026-09-11 01:02:31,574 - INFO -  * Debugger PIN: 542-805-223
+2026-09-11 22:59:03,130 - INFO - Recipe app startup
+2026-09-11 22:59:03,206 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-11 22:59:03,206 - INFO - [33mPress CTRL+C to quit[0m
+2026-09-11 22:59:03,206 - INFO -  * Restarting with stat
+2026-09-11 22:59:03,634 - INFO - Recipe app startup
+2026-09-11 22:59:03,643 - WARNING -  * Debugger is active!
+2026-09-11 22:59:03,644 - INFO -  * Debugger PIN: 542-805-223
+2026-09-11 22:59:07,067 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:07] "GET /about HTTP/1.1" 200 -
+2026-09-11 22:59:07,117 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-11 22:59:07,164 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-11 22:59:08,155 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:08] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-11 22:59:08,172 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-11 22:59:14,578 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:14] "GET /recipes/3 HTTP/1.1" 200 -
+2026-09-11 22:59:14,598 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-11 22:59:14,599 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:14] "[36mGET /static/profile_pics/default.png HTTP/1.1[0m" 304 -
+2026-09-11 22:59:25,428 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:25] "GET /recipes/2 HTTP/1.1" 200 -
+2026-09-11 22:59:25,447 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-11 22:59:25,448 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:25] "[36mGET /static/profile_pics/063afa5d06dde46d.png HTTP/1.1[0m" 304 -
+2026-09-11 22:59:30,036 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:30] "GET /recipes/3 HTTP/1.1" 200 -
+2026-09-11 22:59:30,054 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-11 22:59:30,055 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:30] "[36mGET /static/profile_pics/default.png HTTP/1.1[0m" 304 -
+2026-09-11 22:59:38,842 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:38] "GET /recipes/1 HTTP/1.1" 200 -
+2026-09-11 22:59:38,856 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-11 22:59:38,857 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:38] "[33mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 404 -
+2026-09-11 22:59:45,804 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:45] "GET /recipes/2 HTTP/1.1" 200 -
+2026-09-11 22:59:45,822 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-11 22:59:45,823 - INFO - 127.0.0.1 - - [11/Sep/2026 22:59:45] "[36mGET /static/profile_pics/063afa5d06dde46d.png HTTP/1.1[0m" 304 -
+2026-09-11 23:03:12,015 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:12] "GET /auth/login HTTP/1.1" 200 -
+2026-09-11 23:03:12,033 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-11 23:03:17,963 - INFO - Successful login: test_test@mail.com
+2026-09-11 23:03:17,964 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:17] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2026-09-11 23:03:17,969 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:17] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-11 23:03:17,990 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-11 23:03:17,991 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:17] "[36mGET /static/profile_pics/063afa5d06dde46d.png HTTP/1.1[0m" 304 -
+2026-09-11 23:03:24,943 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:24] "GET /recipes/3 HTTP/1.1" 200 -
+2026-09-11 23:03:24,965 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-11 23:03:24,965 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:24] "[36mGET /static/profile_pics/063afa5d06dde46d.png HTTP/1.1[0m" 304 -
+2026-09-11 23:03:24,966 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:24] "[36mGET /static/profile_pics/default.png HTTP/1.1[0m" 304 -
+2026-09-11 23:03:30,061 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:30] "GET /recipes/2 HTTP/1.1" 200 -
+2026-09-11 23:03:30,080 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-11 23:03:30,081 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:30] "[36mGET /static/profile_pics/063afa5d06dde46d.png HTTP/1.1[0m" 304 -
+2026-09-11 23:03:31,119 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:31] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-11 23:03:31,133 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-11 23:03:31,137 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:31] "[36mGET /static/profile_pics/063afa5d06dde46d.png HTTP/1.1[0m" 304 -
+2026-09-11 23:03:34,033 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:34] "GET /profile/2 HTTP/1.1" 200 -
+2026-09-11 23:03:34,053 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-11 23:03:34,053 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:34] "[36mGET /static/profile_pics/063afa5d06dde46d.png HTTP/1.1[0m" 304 -
+2026-09-11 23:03:35,814 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:35] "GET /recipes/ HTTP/1.1" 200 -
+2026-09-11 23:03:35,833 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-11 23:03:35,833 - INFO - 127.0.0.1 - - [11/Sep/2026 23:03:35] "[36mGET /static/profile_pics/063afa5d06dde46d.png HTTP/1.1[0m" 304 -
